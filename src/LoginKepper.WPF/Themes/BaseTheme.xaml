@@ -1,0 +1,21 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:adonisUi="clr-namespace:AdonisUI;assembly=AdonisUI"
+                    xmlns:adonisControls="clr-namespace:AdonisUI.Controls;assembly=AdonisUI">
+
+
+    
+    <!--Window-->
+    <Style TargetType="adonisControls:AdonisWindow" x:Key="LogginKepperWindowDefault">
+        
+        <Setter Property="TitleBarBackground">
+            <Setter.Value>
+                <SolidColorBrush Color="DarkOrange"/>
+            </Setter.Value>
+        </Setter>
+        
+    </Style>
+
+        
+
+</ResourceDictionary>
